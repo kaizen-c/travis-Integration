@@ -8,5 +8,8 @@ class TestDatetimeAPI(TestCase):
 		assert app.test() == "Works!"
 	
 	def test_dicePage(self):
-		data = requests.get("http://127.0.0.1:5000/test")
+		data = requests.get("http://0.0.0.0:5000/test")
 		self.assertEqual(data.status_code, 200)
+
+if __name__ == '__main__':
+    unittest.main()
