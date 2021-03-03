@@ -36,6 +36,11 @@ def index():
    #return (request.args.get('questionid'))
    return (GetURL(request.args.get('questionid')))
 
+@app.route('/test')
+def test():
+    return "Works!"
+
+
 
 if __name__ == '__main__':
     app.run(debug=True,host='0.0.0.0',port=port)
