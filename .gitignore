@@ -3,3 +3,5 @@
 .pytest_cache/v/cache/nodeids
 __pycache__/app.cpython-37.pyc
 tests/__pycache__/test_dice.cpython-37-PYTEST.pyc
+.pytest_cache/v/cache/lastfailed
+tests/__pycache__/test_dice.cpython-37-PYTEST.pyc
