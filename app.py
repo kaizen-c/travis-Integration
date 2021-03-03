@@ -14,5 +14,5 @@ def test():
     return "Works!"
 
 if __name__ == '__main__':
-    # Threaded option to enable multiple instances for multiple user access support
-    app.run(threaded=True, host="0.0.0.0", port=5000)
+
+    app.run(host="0.0.0.0", port=5000)
