@@ -15,11 +15,11 @@ install:
   - pip install flask_cors
   - pip install coverage
   - pip install pytest-cov
-
+  - pip install sys, os
 script:
   #- python -m pytest -v
   - coverage run test_dice.py
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
-  - python 3 -m codecov
+  #- python 3 -m codecov
