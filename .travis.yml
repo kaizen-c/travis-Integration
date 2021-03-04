@@ -17,6 +17,7 @@ install:
 
 script:
   - python -m pytest -v
+  - pwd
   #- coverage run -m unittest discover
 
 after_success:
