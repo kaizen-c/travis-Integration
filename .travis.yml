@@ -15,7 +15,6 @@ install:
   - pip install flask_cors
   - pip install coverage
   - pip install pytest-cov
-  - pip install sys
   - pip install os
 script:
   #- python -m pytest -v
