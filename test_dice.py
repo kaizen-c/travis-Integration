@@ -1,6 +1,6 @@
 import unittest
 import requests
-import .app
+import app
 from unittest import TestCase
 
 class TestDatetimeAPI(TestCase):
