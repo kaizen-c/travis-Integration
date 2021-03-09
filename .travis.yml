@@ -10,7 +10,7 @@ install:
   - pip install -r requirements.txt
 script:
   #- python -m pytest -v
-  - coverage run tests/test_dice.py
+  - coverage run tests/test_flask.py
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
