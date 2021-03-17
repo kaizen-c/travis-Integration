@@ -11,10 +11,10 @@ class TestDatetimeAPI(TestCase):
 	def test_test(self):
 		assert app.test() == "Works!!!"
 	
-	#def test_GetURL(self):
-	#	ResultDict = app.GetURL('48d75c359ce4')
-	#	ResultDictJ = json.loads(ResultDict)
-	#	assert (ResultDictJ["question"]) =="Which is the best interactive presentation platform?"
+	def test_GetURL(self):
+		ResultDict = app.GetURL('48d75c359ce4')
+		ResultDictJ = json.loads(ResultDict)
+		assert (ResultDictJ["question"]) =="Which is the best interactive presentation platform?"
 	
 	def test_URLConnectivity(self):
 		QuestionURI='https://travis-menti.herokuapp.com/voting?questionid=48d75c359ce4'
